@@ -81,6 +81,9 @@
 		EFB045141FCD56FB009B2DF0 = {
 			isa = PBXGroup;
 			children = (
+				EFB045531FCD6FCA009B2DF0 /* HomeModule */,
+				EFB045541FCD6FCA009B2DF0 /* LoginModule */,
+				EFB045521FCD6FCA009B2DF0 /* NetModule */,
 				EFB0451F1FCD56FC009B2DF0 /* HRProject */,
 				EFB045381FCD56FC009B2DF0 /* HRProjectTests */,
 				EFB045431FCD56FC009B2DF0 /* HRProjectUITests */,
@@ -130,6 +133,27 @@
 				EFB045461FCD56FC009B2DF0 /* Info.plist */,
 			);
 			path = HRProjectUITests;
+			sourceTree = "<group>";
+		};
+		EFB045521FCD6FCA009B2DF0 /* NetModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetModule;
+			sourceTree = "<group>";
+		};
+		EFB045531FCD6FCA009B2DF0 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		EFB045541FCD6FCA009B2DF0 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
