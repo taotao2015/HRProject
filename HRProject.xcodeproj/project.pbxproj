@@ -17,6 +17,8 @@
 		EFB0453A1FCD56FC009B2DF0 /* HRProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB045391FCD56FC009B2DF0 /* HRProjectTests.m */; };
 		EFB045451FCD56FC009B2DF0 /* HRProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB045441FCD56FC009B2DF0 /* HRProjectUITests.m */; };
 		EFB045561FCD70EA009B2DF0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EFB045551FCD70EA009B2DF0 /* Podfile */; };
+		EFCF65CD1FCEA4E600EC4D84 /* HRHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF65CC1FCEA4E600EC4D84 /* HRHomePageController.m */; };
+		EFCF65D01FCEA50000EC4D84 /* HRBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF65CF1FCEA50000EC4D84 /* HRBaseRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		EFB045441FCD56FC009B2DF0 /* HRProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProjectUITests.m; sourceTree = "<group>"; };
 		EFB045461FCD56FC009B2DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB045551FCD70EA009B2DF0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EFCF65CB1FCEA4E600EC4D84 /* HRHomePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRHomePageController.h; sourceTree = "<group>"; };
+		EFCF65CC1FCEA4E600EC4D84 /* HRHomePageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRHomePageController.m; sourceTree = "<group>"; };
+		EFCF65CE1FCEA50000EC4D84 /* HRBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRBaseRequest.h; sourceTree = "<group>"; };
+		EFCF65CF1FCEA50000EC4D84 /* HRBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRBaseRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,8 @@
 		EFCF65C91FCEA43800EC4D84 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				EFCF65CB1FCEA4E600EC4D84 /* HRHomePageController.h */,
+				EFCF65CC1FCEA4E600EC4D84 /* HRHomePageController.m */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -171,6 +179,8 @@
 		EFCF65CA1FCEA43800EC4D84 /* NetModule */ = {
 			isa = PBXGroup;
 			children = (
+				EFCF65CE1FCEA50000EC4D84 /* HRBaseRequest.h */,
+				EFCF65CF1FCEA50000EC4D84 /* HRBaseRequest.m */,
 			);
 			path = NetModule;
 			sourceTree = "<group>";
@@ -361,7 +371,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB045251FCD56FC009B2DF0 /* ViewController.m in Sources */,
+				EFCF65CD1FCEA4E600EC4D84 /* HRHomePageController.m in Sources */,
 				EFB045301FCD56FC009B2DF0 /* main.m in Sources */,
+				EFCF65D01FCEA50000EC4D84 /* HRBaseRequest.m in Sources */,
 				EFB045221FCD56FC009B2DF0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
