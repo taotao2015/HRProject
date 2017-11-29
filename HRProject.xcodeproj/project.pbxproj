@@ -106,9 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				EFB045551FCD70EA009B2DF0 /* Podfile */,
-				EFB045531FCD6FCA009B2DF0 /* HomeModule */,
-				EFB045541FCD6FCA009B2DF0 /* LoginModule */,
-				EFB045521FCD6FCA009B2DF0 /* NetModule */,
 				EFB0451F1FCD56FC009B2DF0 /* HRProject */,
 				EFB045381FCD56FC009B2DF0 /* HRProjectTests */,
 				EFB045431FCD56FC009B2DF0 /* HRProjectUITests */,
@@ -131,6 +128,8 @@
 		EFB0451F1FCD56FC009B2DF0 /* HRProject */ = {
 			isa = PBXGroup;
 			children = (
+				EFCF65C91FCEA43800EC4D84 /* HomeModule */,
+				EFCF65CA1FCEA43800EC4D84 /* NetModule */,
 				EFB045201FCD56FC009B2DF0 /* AppDelegate.h */,
 				EFB045211FCD56FC009B2DF0 /* AppDelegate.m */,
 				EFB045231FCD56FC009B2DF0 /* ViewController.h */,
@@ -162,25 +161,18 @@
 			path = HRProjectUITests;
 			sourceTree = "<group>";
 		};
-		EFB045521FCD6FCA009B2DF0 /* NetModule */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetModule;
-			sourceTree = "<group>";
-		};
-		EFB045531FCD6FCA009B2DF0 /* HomeModule */ = {
+		EFCF65C91FCEA43800EC4D84 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
 		};
-		EFB045541FCD6FCA009B2DF0 /* LoginModule */ = {
+		EFCF65CA1FCEA43800EC4D84 /* NetModule */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = LoginModule;
+			path = NetModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
